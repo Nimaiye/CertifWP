@@ -1,0 +1,296 @@
+
+				     == NOTICE TECHNIQUE ==
+
+
+
+
+	- Informations Environnement -
+
+
+
+== Server Environment ==
+	Operating System: Linux
+	Software: Apache
+	MySQL version: MySQL Community Server (GPL) v5.6.43
+	PHP Version: 7.2.19
+	PHP Max Input Vars: 16000
+	PHP Max Post Size: 130M
+	GD Installed: Yes
+	ZIP Installed: Yes
+	Write Permissions: All right
+	Elementor Library: Connected
+
+== WordPress Environment ==
+	Version: 5.2.4
+	Site URL: https://maximecadennes.referentnumerique-insarouen.fr
+	Home URL: https://maximecadennes.referentnumerique-insarouen.fr
+	WP Multisite: No
+	Max Upload Size: 128 MB
+	Memory limit: 512M
+	Permalink Structure: /%postname%/
+	Language: fr-FR
+	Timezone: Europe/Paris
+	Admin Email: maxime.cadennes@gmail.com
+	Debug Mode: Inactive
+
+== Theme ==
+	Name: child-theme
+	Version: 1.0
+	Author: maxime cadennes
+	Child Theme: Yes
+	Parent Theme Name: Hestia
+	Parent Theme Version: 2.5.4
+	Parent Theme Author: ThemeIsle
+
+== User ==
+	Role: administrator
+	WP Profile lang: fr_FR
+	User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+
+
+== Log ==
+	
+Log: showing 1 of 12019-10-29 10:57:28 [info] Elementor data updater process has been completed. [array (
+  'plugin' => 'Elementor',
+  'from' => '2.7.4',
+  'to' => '2.7.5',
+)]
+
+
+== Elements Usage ==
+	
+	page
+		google_maps : 1
+		heading : 1
+		icon-box : 3
+		shortcode : 1
+		text-editor : 1
+	wp-post
+		button : 1
+		divider : 3
+		heading : 11
+		shortcode : 1
+		spacer : 2
+		text-editor : 6
+		wp-widget-woocommerce_products : 1
+	wp-page
+		divider : -11
+		heading : -18
+		image : 1
+		shortcode : 1
+		spacer : 1
+		text-editor : 4
+
+
+
+
+
+	- Liste des Plugin WP utilisés pour le site Liqu-e-funk -
+
+
+
+== Active Plugins ==
+	Contact Form 7
+		Version: 5.1.4
+		Author: Takayuki Miyoshi
+		Dernière mise à jour : 4 août 2019
+
+	Duplicator
+		Version: 1.3.22
+		Author: Snap Creek
+		Dernière mise à jour : 11 septembre 2019
+
+	Elementor
+		Version: 2.7.5
+		Author: Elementor.com
+		Dernière mise à jour : 29 octobre 2019
+
+	GDPR Cookie Consent
+		Version: 1.8.1
+		Author: WebToffee
+		Dernière mise à jour : début octobre 2019
+
+	Google Analytics for WordPress by MonsterInsights
+		Version: 7.9.0
+		Author: MonsterInsights
+		Dernière mise à jour : début octobre 2019
+
+	MailPoet 3 (New)
+		Version: 3.39.0
+		Author: MailPoet
+		Dernière mise à jour : 30 octobre 2019
+
+	Orbit Fox Companion
+		Version: 2.8.10
+		Author: Themeisle
+		Dernière mise à jour : 13 septembre 2019
+
+	Really Simple SSL
+		Version: 3.2.6
+		Author: Rogier Lankhorst, Mark Wolters
+		Dernière mise à jour : 15 octobre 2019
+
+	SecuPress Free — WordPress Security
+		Version: 1.4.10
+		Author: SecuPress
+		Dernière mise à jour : 30 octobre 2019
+
+	Simple Restrict
+		Version: 1.2.5
+		Author: Awaken Solutions Inc.
+		Dernière mise à jour : début août 2019
+
+	UpdraftPlus - Backup/Restore
+		Version: 1.16.17
+		Author: UpdraftPlus.Com, DavidAnderson
+		Dernière mise à jour : 12 septembre 2019
+
+	WooCommerce
+		Version: 3.7.1
+		Author: Automattic
+		Dernière mise à jour : 9 octobre 2019
+
+	WooCommerce PayPal Checkout Gateway
+		Version: 1.6.17
+		Author: WooCommerce
+		Dernière mise à jour : 8 août 2019
+
+	WooCommerce Stripe Gateway
+		Version: 4.3.0
+		Author: WooCommerce
+		Dernière mise à jour : 17 octobre 2019
+
+	WP-Members
+		Version: 3.2.9.3
+		Author: Chad Butler
+		Dernière mise à jour : juillet 2019
+
+	WP Fastest Cache
+		Version: 0.8.9.9
+		Author: Emre Vona
+		Dernière mise à jour : 23 octobre 2019
+
+	Yoast SEO
+		Version: 12.4
+		Author: Team Yoast
+		Dernière mise à jour : 30 octobre 2019
+
+
+
+== Must-Use Plugins ==
+	SecuPress COOKIEHASH
+		Version: 1.0
+		Author: 
+
+	SecuPress Salt Keys
+		Version: 1.0.1
+		Author: 
+
+
+
+
+
+	- Stratégie de Backup mise en place -
+
+
+
+Plugin utilisé : Updraft Plus.
+Plugin complémentaire : Duplicator.
+
+  [Updraft Plus]
+
+Sauvegarde toutes les 2h, envoyées sur une plateforme extérieure (Drive) en plus d'être sur le serveur.
+Pas plus de 5 sauvegardes cons  
+
+
+
+
+	- Sécurisation du site Liqu-e-funk -
+
+
+
+*/Installation et déploiement du plugin SECUPRESS.
+
+
+*/Respect et application minutieuse de la checklist suivante :
+
+
+Sélectionnez Hébergement Web 
+
+
+Télécharger la dernière version de WordPress		
+Utiliser un protocole de transfert de fichier		
+Installation en ligne ou en localhost		
+		
+		
+Choisir un identifiant et un mot de passe fort		
+Cacher le site test des moteurs de recherche		
+Mettre à jour la date et l'heure		
+Mettre à jour le titre du site		
+Renommer la catégorie “non classé” depuis l’onglet Articles		
+Supprimer le Sample Config File (le fichier WP-config-sample.php)
+Configuration et sécurisation des commentaires	
+Création page de maintenance
+		
+		
+Modifier l’accès au répertoire -
+Ajouter ce code dans le fichier .htaccess file :
+# Prevent folder browsing
+Options All -Indexes
+
+Monitor Site Performance -
+Get regular reports of your websites performance with the help of the P3 – Plugin Performance Profiler Plugin.
+	
+Limiter le nombre d’essais d’identification
+		
+Utiliser des plugins de sécurité (SECUPRESS)
+		
+Protéger notre wp-config file en ajoutant au .htaccess :
+<files wp-config.php>
+order allow,deny
+deny from all
+</files>
+
+Désactiver l’éditeur de thème et de plugin -
+Ajouter cette ligne define dans votre wp-config.php file :
+( 'DISALLOW_FILE_EDIT', true);
+ 		
+Hide Login Error messages -
+Error login messages may expose your website and give hackers an idea if they’ve gotten username correct/incorrect, vice versa. It is wise to hide it from unauthorized login. To hide login error messages, simply put the following code in functions.php :
+function wrong_login() {
+  return 'Wrong username or password.';
+}
+add_filter('login_errors', 'wrong_login');
+
+		
+Passer le site WP en HTTPS -
+Installation du plugin Really Simple SSL.écutives conservées.
+
+  [Duplicator]
+1 sauvegarde manuelle/jour, conservée.
+Sauvegarde nommée par l'heure et la date.
+
+
+
+
+	- Liste des utilisateurs et leurs droits spécifiques -
+
+
+En tout, nous avons créé 4 utilisateurs (ou catégories d'utilisateurs).
+
+	1/l'Administrateur
+
+L'Administrateur a tous les droits sur le site. Il peut intégrer des contenus, mettre à jour, installer ou désinstaller, créer d'autres utilisateurs, etc...
+Il a en plus accès à toutes les pages du site, même celles protégées (comme la page Partenaire, par exemple).
+
+Nous n'avons pas eu l'utilité de créer un autre rôle, possédant moins de droits que l'Admin', pouvant néanmoins contribuer au développement du site.
+
+
+	2/le Client
+
+Le client est l'un des partenaires de la start'up Liqu-e-funk. Après en avoir fait la demande à l'Administrateur, il a le droit d'accéder à la page Partenaire.
+
+
+	3/l'Abonné
+
+L'Abonné est un utilisateur lambda du siter qui a choisi de s'inscrire sur le site. Il a accès à une page "mon Compte" qui lui est réservée.
